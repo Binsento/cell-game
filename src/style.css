@@ -1,0 +1,114 @@
+body {
+    background-color: #ccc;
+    margin: 0px;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+}
+
+
+.header {
+    display: flex;
+    width: 100%;
+    background-color: blue;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5px;
+    color: white;
+    padding: 5px;
+}
+
+.settings {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.settings__button {
+    color: #fff;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 3px #27496d;
+    padding: 10px;
+    margin: 2px;
+}
+
+.button_start {
+    color: #fff;
+    background-color: blue;
+    min-width: 150px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 3px #27496d;
+    padding: 10px;
+    margin: 5px;
+}
+
+.settings__field {
+    background-color:blue;
+    color: white;
+    padding: 5px 10px;
+    margin: 3px;
+    min-width: 100px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.result {
+    background-color:green;
+    width: 30%;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.field {
+    display: flex;
+    width: 30%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+}
+
+.cell, .cell_start {
+    background-color: green;
+    flex-grow: 0;
+    margin: 1px;
+}
+
+.cell_start {
+    background-size: contain;
+    background-image: url('./start.png');
+}
+
+.field-direction {
+    display: flex;
+    width: 33%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+}
+
+.direction {
+    background-image: url('./arrow.png');
+    background-size: contain;
+    color: white;
+    text-align: center;
+    flex-grow: 0;
+    height: 3vw;
+    flex-basis: 3vw;
+}
+
+li {
+    list-style: none;
+}
